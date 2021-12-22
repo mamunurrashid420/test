@@ -1,0 +1,36 @@
+//utils is here 
+.header{
+    background-color: #fff;
+    @include clearfix;
+    .logo{
+        width: 30%;
+        float: left;
+        img{
+            width: 50%;
+            padding: 10px 0px;
+            cursor: pointer;
+        }
+    }
+    .main-menu{
+        width: 70%;
+        float: left;
+        ul{
+            text-align: right;
+            margin-top: 14px;
+            li{
+                text-decoration: none;
+                display: inline-block;  
+                a{
+                    padding: 10px 20px;
+                    display: inline-block;
+                    color: grey;
+                    text-transform: uppercase;
+                    &:hover{
+                         background-color: #badc58; 
+                         color: white;                       
+                    }
+                }
+            }
+        }
+    }
+}

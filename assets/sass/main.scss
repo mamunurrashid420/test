@@ -1,0 +1,19 @@
+//Abstracts (example: variables, function, mixins,placeholders
+@import "utils/_helper";
+@import "utils/__mixins";
+@import "utils/__variables";
+
+//Base 
+@import "base/_reset";
+@import "base/_typography";
+
+//components ( buttons,carousel,cover,dropdown
+
+//layouts( navigation, grid,header,footer,sildbar,form)
+@import "layouts/_topbar";
+@import "layouts/_header";
+
+//pages ( all pages design is here ex: home, about,contact,blog)
+@import "pages/_home";
+@import "pages/_home-2";
+

@@ -1,0 +1,41 @@
+.tap-bar{
+    background-color: #f7f7f7;
+    border-top: 3px solid $p_color;
+    @include clearfix;
+    .contact-info{
+        width: 50%;
+        float: left;
+        ul{
+            text-align: left;
+            li{
+                display: inline-block;
+                color: #999999;
+                i{
+                    padding: 10px;
+                    color: #0088CC;
+                }
+            }
+        }
+    }
+    .social-links{
+        width: 50%;
+        float: left;
+        ul{
+            text-align: center;
+            li{
+                display: inline-block;
+                
+                a{
+                    padding: 15px 10px;
+                     color: #999999 ;
+                    &:hover{
+                        color: darkgoldenrod;
+                    }
+                    i{
+                        color: #0088CC;
+                    }
+                }
+            }
+        }
+    }
+}
